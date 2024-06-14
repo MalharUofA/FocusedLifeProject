@@ -1,0 +1,49 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font: 400 15px / 1.8 "Lato", sans-serif;
+    color: #777;
+}
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+.body{
+    text-align: center;
+}
+
+/* style .caption such that each line has same number of words. */
+.caption{
+    font-size: 60px;
+    
+    font-weight: bold;
+    
+    text-align: center;
+    color: rgb(204, 49, 49);
+    position: absolute;
+    margin: 100px 100px 200px 200px;
+    margin-left: 400px;
+    margin-top: 300px;
+}
+
+.img1, .img2,.img3 {
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;     
+}
+.img1{
+    background-image: url('desktop-wallpaper-hustler-top-hustler-background-for-your-mobile-tablet-explore-hustle-american-hustle-hustle-gang-hustle-hard-hustle-harder.jpg');
+    min-height: 100%;   
+}
+.img2{
+    background-image: url('black-background-marcus-aurelius-statue-hd-wallpaper-preview.jpg');
+    min-height: 400px;
+}
+.img3{
+    background-image: url(goggins.jpg);
+    min-height: 100%;
+    
+}
